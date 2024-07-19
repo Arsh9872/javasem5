@@ -11,9 +11,9 @@ public class SetBitsCounter {
     }
 
     public static void main(String[] args) {
-        int number = 3; 
-        int result = countSetBits(number);
-        System.out.println("Number of set bits in " + number + ": " + result);
+        int n = 3; 
+        int res = countSetBits(n);
+        System.out.println("Number of set bits in " + n + ": " + res);
     }
     
 }
