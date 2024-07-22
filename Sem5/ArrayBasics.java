@@ -31,7 +31,8 @@ public class ArrayBasics {
     //     System.out.print(arr[j]+" ");
     // }
 
-    System.out.println(Arrays.toString(arr));
+    System.out.println(Arrays.toString(arr));  // it uses array property and  convert it to string and then print the output in a songle line withou t using the for loop
+    
     
 
         }
