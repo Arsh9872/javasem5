@@ -23,7 +23,13 @@ public class twodArrayList {
         for (int i = 0; i < arr.size(); i++) {
             System.out.print(arr.get(i)+" ");
         }
+System.out.println();
+        arr.set(1, 72);
+        System.out.println(arr);
 
+        Collections.sort(arr);
+        System.out.println(arr);
     }
+    
     
 }
