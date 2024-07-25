@@ -14,6 +14,8 @@ public class twodArrayList {
         System.out.println(arr);
         arr.add(1,62);
         System.out.println(arr);
+        arr.remove(1);
+        System.out.println(arr);
     }
     
 }
