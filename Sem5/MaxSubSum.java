@@ -17,13 +17,17 @@ public class MaxSubSum {
     }
 
     public static int[][] getArr(){
-        return new int[][]{{1,2,3},{5,6,7}};
+        return new int[][]{{1,2,3},{5,6,7},{6,7,8,9}};   //jagged or ragged array = all different [i]&[j]
 
     }
     public static void printArr(int[][] arr){
         // System.out.println(Arrays.deepToString(arr));
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(Arrays.toString(arr[i]));
+            // System.out.println(Arrays.toString(arr[i]));
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.println(arr[i][j]);
+            }
+            System.out.println();
         }
     }
 }
