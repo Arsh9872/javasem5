@@ -16,8 +16,14 @@ public class twodArrayList {
         System.out.println(arr);
         arr.remove(1);
         System.out.println(arr);
-        arr.remove(Integer.valueOf(22));
+        arr.remove(Integer.valueOf(22));  // most important
         System.out.println(arr);
+
+
+        for (int i = 0; i < arr.size(); i++) {
+            System.out.print(arr.get(i)+" ");
+        }
+
     }
     
 }
