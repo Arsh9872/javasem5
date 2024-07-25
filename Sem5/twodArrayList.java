@@ -16,6 +16,8 @@ public class twodArrayList {
         System.out.println(arr);
         arr.remove(1);
         System.out.println(arr);
+        arr.remove(Integer.valueOf(22));
+        System.out.println(arr);
     }
     
 }
