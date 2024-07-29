@@ -27,8 +27,15 @@ System.out.println();
         arr.set(1, 72);
         System.out.println(arr);
 
+        // sorting 
         Collections.sort(arr);
         System.out.println(arr);
+
+        if (!arr.contains(72)) {
+            arr.add(72);
+            System.out.println(arr);
+            
+        }
     }
     
     
