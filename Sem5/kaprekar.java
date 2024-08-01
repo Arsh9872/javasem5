@@ -18,7 +18,7 @@ public class kaprekar {
         // System.out.println(digits);
         int sqr = n*n;
         for (int i = 1; i < digits; i++) {
-            int pow = (int)Math.pow(10, i);       // we can use doublr=e inted of typecasting(double int in code)
+            int pow = (int)Math.pow(10, i);       // we can use double instead of typecasting(double int in code)
             if (n==pow) {
                 return false;
             }
