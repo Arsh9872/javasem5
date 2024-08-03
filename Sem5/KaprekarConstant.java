@@ -4,9 +4,7 @@ import java.util.Arrays;
 
 public class KaprekarConstant {
     public static void main(String[] args) {
-        int number = 1234; // You can choose any non-negative integer
-
-        // Perform Kaprekar's routine
+        int number = 1234; // You can choose any non-negative integeR
         while (number != 6174) {
             int[] digits = getDigits(number);
             Arrays.sort(digits); // Ascending order
