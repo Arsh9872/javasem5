@@ -1,5 +1,15 @@
 package Sem5;
 
+class ABC {
+    void print(int b){
+        System.out.println("Print");
+    }
+    void print(float a){
+        System.out.println("Display");
+    }
+
+    
+}
 public class Polymorphism {
     public static void main(String[] args) {
 
@@ -16,7 +26,10 @@ public class Polymorphism {
 
         // System.out.println('a' + "b");   // but string is a string it will give output as concat of ab
 
-        System.out.println('a' + 'b' + "c");   // 195c
+        // System.out.println('a' + 'b' + "c");   // 195c
+
+       ABC obj = new ABC();
+       obj.print(10.0);
 
 
 
