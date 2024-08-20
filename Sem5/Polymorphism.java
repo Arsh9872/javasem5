@@ -29,7 +29,7 @@ public class Polymorphism {
         // System.out.println('a' + 'b' + "c");   // 195c
 
        ABC obj = new ABC();
-       obj.print(10.0);
+       obj.print(10);
 
 
 
